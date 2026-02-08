@@ -40,6 +40,8 @@ All visualizations are implemented in a Jupyter notebook using Python.
 - Jupyter Notebook
 
 ## 📁 Repository Structure
+![image-alt](https://github.com/Kin-zala/data-visualization-bioinformatics/blob/b20c3a19f060d32a2b914a4040d2e03b5d684eb1/1.1%20Version_1.png)
+
 
 ```text
 ├── data/        # Input CSV files
@@ -50,6 +52,3 @@ All visualizations are implemented in a Jupyter notebook using Python.
 └── requirements.txt'''
 
 
-1.1. Version A
-
-![image-alt](https://github.com/Kin-zala/data-visualization-bioinformatics/blob/b20c3a19f060d32a2b914a4040d2e03b5d684eb1/1.1%20Version_1.png)
