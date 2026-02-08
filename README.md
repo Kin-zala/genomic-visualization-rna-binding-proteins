@@ -40,15 +40,14 @@ All visualizations are implemented in a Jupyter notebook using Python.
 - Jupyter Notebook
 
 ## 📁 Repository Structure
-![image-alt](https://github.com/Kin-zala/data-visualization-bioinformatics/blob/b20c3a19f060d32a2b914a4040d2e03b5d684eb1/1.1%20Version_1.png)
-
-
 ```text
 ├── data/        # Input CSV files
 ├── notebooks/   # Jupyter notebook with visualization code
 ├── figures/     # Exported plots (PNG)
 ├── exports/     # HTML version of the notebook
 ├── README.md
-└── requirements.txt'''
-
+└── requirements.txt
+```
+## The output
+![image-alt](https://github.com/Kin-zala/data-visualization-bioinformatics/blob/b20c3a19f060d32a2b914a4040d2e03b5d684eb1/1.1%20Version_1.png)
 
