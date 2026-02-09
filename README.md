@@ -1,34 +1,29 @@
-# Genomic Visualization of RNA Binding Protein Signals
+# Visualization Exercise 1 – Comparative Genomic Data Visualizations
 
-This repository contains a visualization project focused on recreating genomic signal plots for fictitious RNA binding protein (RBP) data alongside genomic annotations.  
-The project demonstrates the use of Python-based data visualization tools to represent multi-track genomic signals and transcript structures.
+## Overview
+This repository contains the first exercise of the 2024 Data Visualization Project. 
+It demonstrates three alternative visualizations (Version A, B, C) of fictitious genomic annotations and RNA binding protein signals. 
+The goal is to recreate the example figures and discuss the advantages and limitations of each visualization approach.
 
-## 📊 Project Overview
+## Contents
+- `index.html` – Full Jupyter Notebook export with code, markdown, and embedded plots.
+- `data/` – Contains CSV datasets used for this exercise:
+  - `10_project_data_annotations.csv` – Transcript and exon information.
+  - `10_project_data_signals.csv` – RNA binding protein signals.
+- `plots/` – Optional folder containing static PNG exports of Version A, B, and C visualizations.
+- `code/visualization_ex1.py` – Optional Python script version of the notebook.
+- `requirements.txt` – Required Python libraries for running the code.
 
-The goal of this exercise is to recreate example figures showing:
+## Exercise Details
+- **Version A:** Recreate first visualization of genomic annotations and RNA binding protein signals.
+- **Version B:** Alternative visualization emphasizing [specific feature].
+- **Version C:** Third visualization with [different styling or focus].
+- **Discussion:** Compares the pros and cons of the three visualization approaches.
 
-- Signal intensities of four RNA binding proteins (P1–P4)
-- Genomic annotations including transcripts, exons, and DNA strand orientation
-- Coordinated visualization using shared genomic coordinates
-
-All visualizations are implemented in a Jupyter notebook using Python.
-
-## 🧬 Data Description
-
-### 1. Genomic Annotations
-**File:** `10_project_data_annotations.csv`
-
-- Contains fictitious transcript information
-- Each transcript consists of one or more exons
-- Transcripts are located on either the '+' or '-' DNA strand
-- Used for the bottom annotation panel in the visualization
-
-### 2. RNA Binding Protein Signals
-**File:** `10_project_data_signals.csv`
-
-- Contains artificial signal intensity values
-- Four RNA binding proteins: P1, P2, P3, and P4
-- Values are plotted across genomic positions
+## How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<your-username>/visualization_exercise_1.git
 
 ## 🛠️ Tools & Libraries Used
 
