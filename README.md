@@ -4,17 +4,18 @@ This repository contains exercises and code for visualizing **RNA binding protei
 
 ## Repository Structure
 
-- `data/` – Contains CSV files with artificial datasets:
+- `Data/` – Contains CSV files with artificial datasets:
   - `10_project_data_annotations.csv`: Genomic annotations including transcripts and exons.
   - `10_project_data_signals.csv`: Signals for four RNA binding proteins (P1, P2, P3, P4).
 
-- `notebooks/` – Jupyter notebook for all exercises:
-  - `Visualization_Exercise_1.ipynb` – Complete code for Version A, B, and C visualizations with explanations.
+- `Plot_Images/` – Optional folder for saving example output plots.
 
-- `scripts/` – Optional standalone Python scripts for each version:
+- `Scripts/` – Optional standalone Python scripts for each version:
   - `plot_version_a.py`, `plot_version_b.py`, `plot_version_c.py`
 
-- `images/` – Optional folder for saving example output plots.
+- `Visualization_Exercise_1.ipynb` – Complete code for Version A, B, and C visualizations with explanations.
+
+- `Requirements.txt` - text for requirement list for this exercise.
 
 ## Exercises Overview
 
@@ -37,5 +38,9 @@ git clone https://github.com/Kin-zala/genomic-visualization-rna-binding-proteins
 
 ## The output
 ![image-alt](https://github.com/Kin-zala/genomic-visualization-rna-binding-proteins/blob/fbed4dbc5ba7cd6628edde082c0cb2427b9cf107/Version_A_visualization.png)
+
+### 1.2 Version B
 ![image-alt](https://github.com/Kin-zala/genomic-visualization-rna-binding-proteins/blob/fbed4dbc5ba7cd6628edde082c0cb2427b9cf107/Version_B_visualization.png)
+
+### 1.3 Version C
 ![image-alt](https://github.com/Kin-zala/genomic-visualization-rna-binding-proteins/blob/fbed4dbc5ba7cd6628edde082c0cb2427b9cf107/Version_C_visualization.png)
