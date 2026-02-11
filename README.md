@@ -13,7 +13,8 @@ This repository contains exercises and code for visualizing **RNA binding protei
 - `Scripts/` – Optional standalone Python scripts for each version:
   - `plot_version_a.py`, `plot_version_b.py`, `plot_version_c.py`
 
-- `Visualization_Exercise_1.ipynb` – Complete code for Version A, B, and C visualizations with explanations.
+- `notebooks/` – Jupyter notebook for all exercises:
+  - `Visualization_Exercise_1.ipynb` – Complete code for Version A, B, and C visualizations with explanations.
 
 - `Requirements.txt` - text for requirement list for this exercise.
 
