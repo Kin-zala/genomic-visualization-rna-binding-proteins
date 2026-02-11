@@ -1,48 +1,39 @@
-# Visualization Exercise 1 – Comparative Genomic Data Visualizations
+# Genomic Visualization of RNA Binding Proteins
 
-## Overview
-This repository contains the first exercise of the 2024 Data Visualization Project. 
-It demonstrates three alternative visualizations (Version A, B, C) of fictitious genomic annotations and RNA binding protein signals. 
-The goal is to recreate the example figures and discuss the advantages and limitations of each visualization approach.
+This repository contains exercises and code for visualizing **RNA binding protein signals** alongside **genomic annotations**. The goal is to recreate three types of visualizations using Python, Matplotlib, and Seaborn.
 
-## Contents
-- `index.html` – Full Jupyter Notebook export with code, markdown, and embedded plots.
-- `data/` – Contains CSV datasets used for this exercise:
-  - `10_project_data_annotations.csv` – Transcript and exon information.
-  - `10_project_data_signals.csv` – RNA binding protein signals.
-- `plots/` – Optional folder containing static PNG exports of Version A, B, and C visualizations.
-- `code/visualization_ex1.py` – Optional Python script version of the notebook.
-- `requirements.txt` – Required Python libraries for running the code.
+## Repository Structure
 
-## Exercise Details
-- **Version A:** Recreate first visualization of genomic annotations and RNA binding protein signals.
-- **Version B:** Alternative visualization emphasizing [specific feature].
-- **Version C:** Third visualization with [different styling or focus].
-- **Discussion:** Compares the pros and cons of the three visualization approaches.
+- `data/` – Contains CSV files with artificial datasets:
+  - `10_project_data_annotations.csv`: Genomic annotations including transcripts and exons.
+  - `10_project_data_signals.csv`: Signals for four RNA binding proteins (P1, P2, P3, P4).
 
-## How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/visualization_exercise_1.git
+- `notebooks/` – Jupyter notebook for all exercises:
+  - `Visualization_Exercise_1.ipynb` – Complete code for Version A, B, and C visualizations with explanations.
 
-## 🛠️ Tools & Libraries Used
+- `scripts/` – Optional standalone Python scripts for each version:
+  - `plot_version_a.py`, `plot_version_b.py`, `plot_version_c.py`
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- `images/` – Optional folder for saving example output plots.
 
-## 📁 Repository Structure
-```text
-├── data/        # Input CSV files
-├── notebooks/   # Jupyter notebook with visualization code
-├── figures/     # Exported plots (PNG)
-├── exports/     # HTML version of the notebook
-├── README.md
-└── requirements.txt
+## Exercises Overview
+
+1. **Version A**: Individual line plots for each protein with genomic annotations below.  
+2. **Version B**: Heatmap representation of protein signals with annotations below.  
+3. **Version C**: Colored overlay line plots for all proteins with annotations below.  
+
+## Libraries Used
+
+- Python 3.x
+- `pandas`, `numpy`, `matplotlib`, `seaborn`
+
+## How to Use
+
+1. Clone the repository:
+```bash
 ```
+git clone https://github.com/<your-username>/genomic-visualization-rna-binding-proteins.git
+
 ## The output
 ![image-alt](https://github.com/Kin-zala/data-visualization-bioinformatics/blob/b20c3a19f060d32a2b914a4040d2e03b5d684eb1/1.1%20Version_1.png)
 
