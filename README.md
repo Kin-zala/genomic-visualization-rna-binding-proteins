@@ -34,7 +34,9 @@ This repository contains exercises and code for visualizing **RNA binding protei
 ```bash
 git clone https://github.com/Kin-zala/genomic-visualization-rna-binding-proteins.git
 ```
+2. Open the Jupyter notebook in notebooks/ and run the cells.
 
+3. Alternatively, run the Python scripts in scripts/ to generate individual visualizations.
 
 ## The output
 ![image-alt](https://github.com/Kin-zala/genomic-visualization-rna-binding-proteins/blob/fbed4dbc5ba7cd6628edde082c0cb2427b9cf107/Version_A_visualization.png)

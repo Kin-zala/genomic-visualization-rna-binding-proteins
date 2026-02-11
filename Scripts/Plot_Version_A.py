@@ -6,8 +6,8 @@ import seaborn as sns
 import numpy as np
 
 #load the dataframe
-df1 = pd.read_csv("10_project_data_annotation.csv")
-df2 = pd.read_csv("10_project_data_signals.csv")
+df1 = pd.read_csv("Data\\10_project_data_annotation.csv")
+df2 = pd.read_csv("Data\\10_project_data_signals.csv")
 
 
 # Create subplots: One for each column in df2 plus an additional one for annotations
