@@ -1,6 +1,6 @@
 # Genomic Visualization of RNA Binding Proteins
 
-This repository contains exercises and code for visualizing **RNA binding protein signals** alongside **genomic annotations**. The goal is to recreate three types of visualizations using Python, Matplotlib, and Seaborn.
+This repository contains exercises and code for visualizing **RNA binding protein signals** alongside **genomic annotations**. The goal is to recreate three types of visualizations using **Python, Matplotlib, and Seaborn**.
 
 ## Repository Structure
 
