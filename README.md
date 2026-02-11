@@ -31,7 +31,7 @@ This repository contains exercises and code for visualizing **RNA binding protei
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/genomic-visualization-rna-binding-proteins.git
+git clone https://github.com/Kin-zala/genomic-visualization-rna-binding-proteins.git
 ```
 
 
