@@ -36,4 +36,3 @@ git clone https://github.com/<your-username>/genomic-visualization-rna-binding-p
 
 ## The output
 ![image-alt](https://github.com/Kin-zala/data-visualization-bioinformatics/blob/b20c3a19f060d32a2b914a4040d2e03b5d684eb1/1.1%20Version_1.png)
-
